@@ -8,7 +8,6 @@ class Home extends Component {
       <div className="Home">
         <Navigation />
         <Banner />
-
         <span>Home</span>
       </div>
     );

@@ -6,10 +6,8 @@ class Navigation extends Component {
     return (
       <div className="Navbar">
         <Navbar brand='logo' right className="black">
-          <NavItem href='/contact'><Icon>search</Icon></NavItem>
-          <NavItem href='get-started.html'><Icon>view_module</Icon></NavItem>
-          <NavItem href='get-started.html'><Icon>refresh</Icon></NavItem>
-          <NavItem href='get-started.html'><Icon>more_vert</Icon></NavItem>
+          <NavItem href='/portfolio'><Icon>view_module</Icon></NavItem>
+          <NavItem href='/contact'><Icon>view_module</Icon></NavItem>
         </Navbar>
       </div>
     );
