@@ -16,20 +16,23 @@ class Portfolio extends Component {
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
 
     return (
       <div className="Contact">
         <Navigation />
         <div className="portfolio-cards-section">
+        <Row>
           {
-            this.state.projects.map(function(project, i){
-              // console.log(project.title);
+            this.state.projects.map(function (project, i) {
               return (
-                <PortfolioCard />
+                <Col s={4} className='grid-example'>
+                  <PortfolioCard />
+                </Col>
               )
             })
           }
+          </Row>
         </div>
         <span>Portfolio</span>
       </div>

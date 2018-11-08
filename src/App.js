@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
+import './App.css'
 
 import { BrowserRouter, Route } from 'react-router-dom'
 class App extends Component {
