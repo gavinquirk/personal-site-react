@@ -8,6 +8,22 @@ const projects = [
   },
   {
     title: 'slack-overflow'
+  },
+  {
+    title: 'hopstop'
+  },
+  {
+    title: 'gifmaster'
+  },  {
+    title: 'hopstop'
+  },
+  {
+    title: 'gifmaster'
+  },  {
+    title: 'hopstop'
+  },
+  {
+    title: 'gifmaster'
   }
 ]
 
