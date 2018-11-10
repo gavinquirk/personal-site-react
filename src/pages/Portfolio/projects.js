@@ -1,30 +1,34 @@
 // List of Projects
 const projects = [
   {
-    title: 'hopstop'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'gifmaster'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'slack-overflow'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'hopstop'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'gifmaster'
-  },  {
-    title: 'hopstop'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'gifmaster'
-  },  {
-    title: 'hopstop'
+    title: 'hopstop',
+    github: 'www.github.com'
   },
   {
-    title: 'gifmaster'
+    title: 'hopstop',
+    github: 'www.github.com'
   }
+
 ]
 
 export default { data: projects }
