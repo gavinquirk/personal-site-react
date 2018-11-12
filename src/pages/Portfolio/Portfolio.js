@@ -4,7 +4,8 @@ import Banner from '../../components/Banner'
 import PortfolioCard from '../../components/PortfolioCard'
 import Projects from './projects.js'
 import { Row, Col } from 'react-materialize'
-import pic from './portfolioImages/bob-ross.jpg'
+// import pic from './portfolioImages/fictionaluniversity_640_320.png'
+// import pic from 'public/images/fictionaluniversity_640_320.png'
 
 import './reset.css'
 import './Portfolio.css'
@@ -29,8 +30,8 @@ class Portfolio extends Component {
             this.state.projects.map(function (project, i) {
               return (
                 <li> 
-                <a class="rig-cell" href="#">
-                  <img class="rig-img" src={pic} />
+                <a class="rig-cell" href={project.deployed}>
+                  <img class="rig-img" src={project.image} />
                   <span class="rig-overlay"></span>
                   <span class="rig-text">{project.title}</span>
                 </a>

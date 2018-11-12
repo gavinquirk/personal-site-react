@@ -1,68 +1,27 @@
 // List of Projects
 const projects = [
   {
-    title: 'hopstop',
+    title: 'Artallus',
     github: 'https://github.com/gavinquirk/HopStop',
     deployed: 'http://hop-stop.herokuapp.com/',
     description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
+    image: '/images/hopstop_990.png'
   },
   {
-    title: 'hopstop',
+    title: 'Fictional University',
     github: 'https://github.com/gavinquirk/HopStop',
     deployed: 'http://hop-stop.herokuapp.com/',
     description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
+    image: '/images/fictionaluniversity_990.png'
   },
   {
-    title: 'hopstop',
+    title: 'Slack Overflow',
     github: 'https://github.com/gavinquirk/HopStop',
     deployed: 'http://hop-stop.herokuapp.com/',
     description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
+    image: '/images/fictionaluniversity_990.png'
   },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  },
-  {
-    title: 'hopstop',
-    github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
-    description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
-    imagePath: './portfolioImages/bob-ross.jpg'
-  }
+
 
 ]
 

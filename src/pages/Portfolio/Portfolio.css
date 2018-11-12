@@ -1,7 +1,7 @@
 #rig {
   max-width:100%;
   margin:0 auto; /*center aligned*/
-  padding: 0 0;
+  padding:  1%;
   font-size:0; /* Remember to change it back to normal font size if have captions */
   list-style:none;
   background-color:#121212;
@@ -86,13 +86,13 @@
 
 @media (max-width: 9000px) {
   #rig li {
-      width:33.33%;
+      width:50%;
   }
 }
 
 @media (max-width: 700px) {
   #rig li {
-      width:50%;
+      width:100%;
   }
 }
 
