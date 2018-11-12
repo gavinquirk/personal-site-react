@@ -4,7 +4,7 @@ import Banner from '../../components/Banner'
 import PortfolioCard from '../../components/PortfolioCard'
 import Projects from './projects.js'
 import { Row, Col } from 'react-materialize'
-import pic from './bob-ross.jpg'
+import pic from './portfolioImages/bob-ross.jpg'
 
 import './reset.css'
 import './Portfolio.css'
@@ -23,70 +23,21 @@ class Portfolio extends Component {
 
     return (
       <div className="content">
+        <Navigation />
         <ul id="rig">
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
-          <li>
-            <a class="rig-cell" href="#">
-              <img class="rig-img" src={pic} />
-              <span class="rig-overlay"></span>
-              <span class="rig-text">Lorem Ipsum Dolor</span>
-            </a>
-          </li>
+          {
+            this.state.projects.map(function (project, i) {
+              return (
+                <li> 
+                <a class="rig-cell" href="#">
+                  <img class="rig-img" src={pic} />
+                  <span class="rig-overlay"></span>
+                  <span class="rig-text">{project.title}</span>
+                </a>
+              </li>
+              )
+            })
+          }
         </ul>
       </div>
     );
