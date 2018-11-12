@@ -23,6 +23,7 @@
   display:block;
   position: relative;
   overflow:hidden;
+  margin: 1%;
 }
       
 /* If have the image layer */
