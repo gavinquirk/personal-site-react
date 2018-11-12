@@ -27,11 +27,35 @@ body {
   max-width: 100%;
 }
 
+.skills-intro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills hr {
+  border-color: white;
+}
+
 .skills-section {
-  background-color: #6f7c83;
+  /* background-color: #6f7c83; */
+  background-color: #121212;
+  border: 10px;
+  border-color: white;
+
 }
 
 .nomargin {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.skills-section-title {
+  padding: 2%;
+  text-align: center;
+}
+
+.skills-section img {
+  width: 100%;
+  max-width: 100%;
+
 }
