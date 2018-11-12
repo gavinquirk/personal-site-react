@@ -1,0 +1,37 @@
+body {
+  background-color: #121212;
+}
+
+.home {
+  background-color: #121212;
+  color: white;
+  height: 100%;
+}
+
+.section {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 2%;
+}
+
+.intro {
+  background-color: #6f7c83;
+}
+
+.skills {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.skills-section {
+  background-color: #6f7c83;
+}
+
+.nomargin {
+  padding: 0 !important;
+  margin: 0 !important;
+}

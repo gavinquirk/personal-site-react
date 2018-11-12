@@ -1,0 +1,25 @@
+.banner {
+  width: 100%;
+  height: 700px;
+  background-image: url("./mushroom.JPG");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 9000px) {
+  .banner {
+      height: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner {
+      height: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .banner {
+      height: 200px;
+  }
+}
