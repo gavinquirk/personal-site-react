@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import Navigation from '../../components/Navigation'
-import Banner from '../../components/Banner'
 import './Home.css';
 import { Row, Col, Container, Jumbotron } from 'reactstrap';
+
+import Navigation from '../../components/Navigation'
+import Banner from '../../components/Banner'
+import Badges from '../../components/Badges'
+
 
 class Home extends Component {
 
@@ -16,6 +19,7 @@ class Home extends Component {
       <div className="home">
         <Navigation />
         <Banner />
+        <Badges />
         <div className="skills">
           <hr />
           <span className="skills-intro">
