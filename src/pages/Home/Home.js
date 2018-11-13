@@ -7,6 +7,7 @@ import Banner from '../../components/Banner'
 // import Badges from '../../components/Badges'
 import Skills from '../../components/Skills'
 import UCI from '../../components/UCI';
+import Artallus from '../../components/Artallus';
 
 
 class Home extends Component {
@@ -21,9 +22,11 @@ class Home extends Component {
       <div className="home">
         <Navigation />
         <Banner />
-        {/* <Badges /> */}
-        {/* <Skills /> */}
-        <UCI />
+        <a href="http://www.google.com"><UCI /></a>
+        <hr/>
+        <a href="http://www.artallus.com"><Artallus /></a>
+        <hr/>
+
 
 
 
