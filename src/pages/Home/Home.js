@@ -8,6 +8,7 @@ import Banner from '../../components/Banner'
 import Skills from '../../components/Skills'
 import UCI from '../../components/UCI';
 import Artallus from '../../components/Artallus';
+import SelfTaught from '../../components/SelfTaught';
 
 
 class Home extends Component {
@@ -26,6 +27,8 @@ class Home extends Component {
         <hr/>
         <a href="http://www.artallus.com"><Artallus /></a>
         <hr/>
+        <a href="http://www.artallus.com"><SelfTaught /></a>
+
 
 
 

@@ -10,36 +10,36 @@ class UCI extends Component {
       <Row className="nomargin UCI section">
         <Col lg={6}>
           <Row>
-              <Col lg={4} s={1}>
+              <Col lg={4} sm={1}>
                 <div className="badge">
                   <img src="images/badge_html_css.png" />
                 </div>
               </Col>
-              <Col lg={4} s={1}>
+              <Col lg={4} sm={1}>
                 <div className="badge">
                   <img src="images/badge_javascript_jquery.png" />
                 </div>
               </Col>
-              <Col lg={4} s={1}>
+              <Col lg={4} sm={1}>
                 <div className="badge">
                   <img src="images/badge_react.png" />
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col lg={1}></Col>
-              <Col lg={4} s={1}>
+              <Col lg={1} sm={1}></Col>
+              <Col lg={4} sm={1}>
                 <div className="badge">
                   <img src="images/badge_node_express.png" />
                 </div>
               </Col>
-              <Col lg={2}></Col>
-              <Col lg={4} s={1}>
+              <Col lg={2} sm={1}></Col>
+              <Col lg={4} sm={1}>
                 <div className="badge">
                   <img src="images/badge_sql_nosql.png" />
                 </div>
               </Col>
-              <Col lg={1}></Col>
+              <Col lg={1} sm={1}></Col>
             </Row>
         </Col>
         
