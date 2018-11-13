@@ -1,0 +1,17 @@
+.UCI {
+  background-color: #121212;
+  color: white;
+}
+
+.nar {
+  position: relative;
+}
+
+.nar-p {
+  padding: 10%;
+  position: absolute;
+}
+
+.badge img {
+  width: 75%;
+}
