@@ -10,6 +10,19 @@ class SelfTaught extends Component {
       <Row className="nomargin SelfTaught section">
         <Col lg={6}>
           {/* TODO: List Icons of Self Taught */}
+          <Row>
+              <Col lg={4}>
+                <img className="st-image" src="images/wordpress_500_500.png" />
+              </Col>
+              <Col lg={4}>
+                <img className="st-image" src="images/php_512_512.png" />
+              </Col>
+              <Col lg={4}>
+                <img className="st-image" src="images/docker_512_512.png" />
+              </Col>
+          </Row>
+
+
         </Col>
         <Col lg={6}>
           <div className="nar">
