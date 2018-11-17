@@ -8,7 +8,6 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-      <h1>TEST</h1>
         <Navigation />
         <Row>
           <Col className="page-title" l={12}>
@@ -18,7 +17,7 @@ class Contact extends Component {
         <Banner bannerUrl={"/images/computer_use_leaderboard.jpg"} />
         <Row>
           <Col className="contact-section" l={6} s={12} >
-            {/* <h2 className="contact-section-title">Email</h2> */}
+            <h2 className="contact-section-title">Email</h2>
             <h4>The best way to contact me is by email at</h4>
             <h5>gavinquirk.work@gmail.com</h5>
           </Col>

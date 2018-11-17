@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Banner-Home.css'
-import { Row, Col } from 'react-reactstrap';
+import './BannerHome.css'
+import { Row, Col } from 'reactstrap';
 
-class Banner extends Component {
+class BannerHome extends Component {
   render() {
     return (
       <div className="banner">
@@ -20,4 +20,4 @@ class Banner extends Component {
   }
 }
 
-export default Banner;
+export default BannerHome;

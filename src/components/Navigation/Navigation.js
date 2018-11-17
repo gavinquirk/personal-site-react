@@ -37,10 +37,16 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="navlink text-white" href="/components/">Portfolio</NavLink>
+                <NavLink className="navlink text-white" href="/portfolio/">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="navlink text-white" href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <NavLink className="navlink text-white" href="/contact/">Contact</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="navlink text-white" href="https://github.com/gavinquirk" target="_blank">Github</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="navlink text-white" href="https://www.linkedin.com/in/gavin-quirk/" target="_blank">Linkedin</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
