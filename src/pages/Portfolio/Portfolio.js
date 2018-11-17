@@ -3,7 +3,7 @@ import Navigation from '../../components/Navigation'
 import Banner from '../../components/Banner'
 import PortfolioCard from '../../components/PortfolioCard'
 import Projects from './projects.js'
-import { Row, Col } from 'reactstrap';
+import { Row, Col } from 'react-materialize';
 // import pic from './portfolioImages/fictionaluniversity_640_320.png'
 // import pic from 'public/images/fictionaluniversity_640_320.png'
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Banner.css'
-import { Row, Col } from 'reactstrap';
+import { Row, Col } from 'react-materialize';
 
 class Banner extends Component {
   render() {

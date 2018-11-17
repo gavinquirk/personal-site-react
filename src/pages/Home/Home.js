@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-import { Row, Col, Container, Jumbotron } from 'reactstrap';
+import { Row, Col, Container, Jumbotron } from 'react-materialize';
 
 import Navigation from '../../components/Navigation'
 import Banner from '../../components/Banner'
