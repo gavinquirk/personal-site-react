@@ -42,10 +42,10 @@ export default class Navigation extends React.Component {
                 <NavLink href="/contact"><span className="navlink">Contact</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><span className="navlink">GitHub</span></NavLink>
+                <NavLink href="https://github.com/gavinquirk" target="_blank"><span className="navlink">GitHub</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><span className="navlink">Linkedin</span></NavLink>
+                <NavLink href="https://www.linkedin.com/in/gavin-quirk/" target="_blank"><span className="navlink">Linkedin</span></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
