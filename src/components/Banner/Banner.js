@@ -4,15 +4,14 @@ import { Row, Col } from 'reactstrap';
 
 class Banner extends Component {
   render() {
-    return (
-      <div className="banner">
-        <Row className="banner-intro nomargin">
-          <Col lg={6} className="banner-intro">
-            <h1>Gavin Quirk</h1>
-            <h2>Full-Stack Developer</h2>
-          </Col>
-          <Col lg={6}>
 
+    const bannerUrl = this.props.bannerUrl
+
+    return (
+      <div className="Banner">
+        <Row>
+          <Col lg="12" sm="6">
+            <img src={bannerUrl} className="bannerImage" />
           </Col>
         </Row>
       </div>

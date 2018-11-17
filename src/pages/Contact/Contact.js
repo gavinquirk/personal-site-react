@@ -4,7 +4,6 @@ import Banner from '../../components/Banner'
 import { Row, Col } from 'reactstrap';
 import './Contact.css';
 
-
 class Contact extends Component {
   render() {
     return (
@@ -15,9 +14,11 @@ class Contact extends Component {
             <h2>Contact Me</h2>
           </Col>
         </Row>
+        <Banner bannerUrl={"/images/computer_use_leaderboard.jpg"} />
         <Row>
           <Col className="section-title" lg="6" sm="12" >
-            <h4>Email</h4>
+            <h4>Email Me</h4>
+            <h5>gavinquirk@gmail.com</h5>
           </Col>
           <Col className="section-title" lg="6" sm="12" >
             <h4>Social Media</h4>
