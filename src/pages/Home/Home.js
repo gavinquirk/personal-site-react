@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-import { Row, Col, Container, Jumbotron } from 'react-materialize';
+import { Row, Col, Container, Jumbotron } from 'reactstrap';
 
 import Navigation from '../../components/Navigation'
 import Banner from '../../components/Banner'
@@ -25,7 +25,7 @@ class Home extends Component {
         <Banner />
         <a href="http://www.google.com"><UCI /></a>
         <hr/>
-        <a href="http://www.artallus.com"><Artallus /></a>
+        {/* <a href="http://www.artallus.com"><Artallus /></a> */}
         <hr/>
         <a href="http://www.artallus.com"><SelfTaught /></a>
 

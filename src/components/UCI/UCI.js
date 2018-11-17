@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Jumbotron } from 'react-materialize';
+import { Row, Col, Container, Jumbotron } from 'reactstrap';
 import './UCI.css'
 
 class UCI extends Component {

@@ -1,5 +1,9 @@
-/* .navbar {
+.navbar {
   background-color: #121212;
+  color: white;
+}
+
+.navbar-brand {
   color: white;
 }
 
@@ -9,4 +13,4 @@
 
 .navlink {
   color: white;
-} */
+}

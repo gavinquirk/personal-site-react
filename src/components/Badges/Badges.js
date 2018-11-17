@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'react-materialize';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import './Badges.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'

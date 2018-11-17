@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Collapse, Row, Col } from 'react-materialize';
+import { Collapse, Row, Col } from 'reactstrap';
 import './Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
