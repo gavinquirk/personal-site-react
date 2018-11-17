@@ -1,3 +1,11 @@
+/* Portfolio Page */
+.Portfolio {
+  background-color:#121212;
+  color: white;
+}
+
+
+/* Responsive Gallery */
 #rig {
   max-width:100%;
   margin:0 auto; /*center aligned*/

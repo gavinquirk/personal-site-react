@@ -9,13 +9,13 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-        {/* <Navigation /> */}
+        <Navigation />
         <Row>
-          <Col className="contact-intro" lg="12" sm="12" >
+          <Col className="page-title" lg="12" sm="12" >
             <h2>Contact Me</h2>
           </Col>
         </Row>
-        <Row className="section">
+        <Row>
           <Col className="section-title" lg="6" sm="12" >
             <h4>Email</h4>
           </Col>
