@@ -9,7 +9,7 @@ class Artallus extends Component {
     return (
       <Row className="nomargin UCI section">
         <Col lg={6}>
-          <img className="section-image" src="images/fictionaluniversity_990.png"/>
+          <img className="section-image" src="images/Artallus-Logo.png"/>
         </Col>
         <Col lg={6}>
           <div className="nar">
