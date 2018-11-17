@@ -13,3 +13,17 @@
   margin: 0 0 3% 0;
 }
 
+.icons {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+.icons i {
+  margin: 0 2% 0 2%;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+}

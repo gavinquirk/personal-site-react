@@ -9,12 +9,12 @@ class Contact extends Component {
     return (
       <div className="Contact">
         <Navigation />
+        <Banner bannerUrl={"/images/computer_use_leaderboard.jpg"} />
         <Row>
           <Col className="page-title" l={12}>
             <h2>Contact Me</h2>
           </Col>
         </Row>
-        <Banner bannerUrl={"/images/computer_use_leaderboard.jpg"} />
         <Row>
           <Col className="contact-section" l={6} s={12} >
             <h2 className="contact-section-title">Email</h2>
@@ -24,7 +24,10 @@ class Contact extends Component {
           <Col className="contact-section" l={6} s={12} >
             <h2 className="contact-section-title">Social Media</h2>
             <h4>You can also find me online</h4>
-            <h5>gavinquirk.work@gmail.com</h5>
+            <div className="icons">
+              <a href="https://github.com/gavinquirk" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/gavin-quirk/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
           </Col>
         </Row>
       </div>
