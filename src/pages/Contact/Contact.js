@@ -8,6 +8,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
+      <h1>TEST</h1>
         <Navigation />
         <Row>
           <Col className="page-title" l={12}>
