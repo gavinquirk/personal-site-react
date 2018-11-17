@@ -10,9 +10,13 @@
   margin-top: 10%;
 }
 
-.section-image {
+.logo {
   width: 25%;
-  margin-top: 5%;
+  margin-top: 4%;
+}
+
+.image-section {
+  text-align: center;
 }
 
 .nar-p {

@@ -13,9 +13,9 @@ import SelfTaught from '../../components/SelfTaught';
 
 class Home extends Component {
 
-  componentDidMount() {
-    console.log('HOME')
-  }
+  // componentDidMount() {
+  //   console.log('HOME')
+  // }
 
   render() {
 
@@ -25,14 +25,9 @@ class Home extends Component {
         <BannerHome />
         <a href="http://www.google.com"><UCI /></a>
         <hr/>
-        {/* <a href="http://www.artallus.com"><Artallus /></a> */}
+        <a href="http://www.artallus.com"><Artallus /></a>
         <hr/>
         <a href="http://www.artallus.com"><SelfTaught /></a>
-
-
-
-
-
       </div>
     );
   }
