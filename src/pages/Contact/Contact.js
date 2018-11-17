@@ -16,12 +16,15 @@ class Contact extends Component {
         </Row>
         <Banner bannerUrl={"/images/computer_use_leaderboard.jpg"} />
         <Row>
-          <Col className="section-title" lg="6" sm="12" >
-            <h4>Email Me</h4>
-            <h5>gavinquirk@gmail.com</h5>
+          <Col className="contact-section" lg="6" sm="12" >
+            <h2 className="contact-section-title">Email</h2>
+            <h4>The best way to contact me is by email at</h4>
+            <h5>gavinquirk.work@gmail.com</h5>
           </Col>
-          <Col className="section-title" lg="6" sm="12" >
-            <h4>Social Media</h4>
+          <Col className="contact-section" lg="6" sm="12" >
+            <h2 className="contact-section-title">Social Media</h2>
+            <h4>You can also find me online</h4>
+            <h5>gavinquirk.work@gmail.com</h5>
           </Col>
         </Row>
       </div>
