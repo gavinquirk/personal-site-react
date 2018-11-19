@@ -23,11 +23,11 @@ class Home extends Component {
       <div className="home">
         <Navigation />
         <BannerHome />
-        <a href="http://www.google.com"><UCI /></a>
+        <UCI />
         <hr/>
-        <a href="http://www.artallus.com"><Artallus /></a>
+        <Artallus />
         <hr/>
-        <a href="http://www.artallus.com"><SelfTaught /></a>
+        <SelfTaught />
       </div>
     );
   }

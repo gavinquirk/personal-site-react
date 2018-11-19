@@ -14,10 +14,10 @@ body {
   margin: 0 auto;
 }
 
-.section:hover {
+/* .section:hover {
   transform:translateY(0px);
   opacity:0.3;
-}
+} */
 
 
 .nomargin {
