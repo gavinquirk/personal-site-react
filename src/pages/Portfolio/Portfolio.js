@@ -3,7 +3,7 @@ import Navigation from '../../components/Navigation'
 import Banner from '../../components/Banner'
 import PortfolioCard from '../../components/PortfolioCard'
 import Projects from './projects.js'
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Tooltip, Button } from 'reactstrap';
 // import pic from './portfolioImages/fictionaluniversity_640_320.png'
 // import pic from 'public/images/fictionaluniversity_640_320.png'
 
@@ -12,7 +12,24 @@ import './Portfolio.css'
 
 class Portfolio extends Component {
 
+  // constructor(props) {
+  //   super(props);
+
+  //   this.toggle = this.toggle.bind(this);
+  //   this.state = {
+  //     tooltipOpen: false,
+  //     projects: []
+  //   };
+  // }
+
+  // toggle() {
+  //   this.setState({
+  //     tooltipOpen: !this.state.tooltipOpen
+  //   });
+  // }
+
   state = {
+    tooltipOpen: false,
     projects: [],
   }
 
@@ -21,6 +38,10 @@ class Portfolio extends Component {
   }
 
   render() {
+
+    const deployChecker = (deploy) => {
+      return (deploy ? <Button className="project-button" href={deploy} target="_blank">Deployed</Button> : "")
+    }
 
     return (
       <div className="Portfolio">
@@ -34,13 +55,29 @@ class Portfolio extends Component {
           {
             this.state.projects.map(function (project, i) {
               return (
-                <li> 
-                <a class="rig-cell" href={project.deployed}>
-                  <img class="rig-img" src={project.image} />
-                  <span class="rig-overlay"></span>
-                  <span class="rig-text">{project.title}</span>
-                </a>
-              </li>
+                <li>
+                  <a class="rig-cell" href={project.deployed}>
+                    <img class="rig-img" src={project.image} />
+                    <span class="rig-overlay"></span>
+                    <div class="rig-text">
+                      <h4>{project.title}</h4>
+                      <p>Nisi Lorem nisi et pariatur ipsum esse. Tempor nisi sit ex esse voluptate ullamco magna anim.
+                       Quis aute aliquip nulla sit quis magna fugiat laboris enim amet.</p>
+                      <Button className="project-button" href={project.github} target="_blank">Github</Button>
+                      {/* <Button className="project-button" href={project.deployed} target="_blank">Deployed</Button> */}
+                      {deployChecker(project.deployed)}
+                       {/* NOT WORKING -- ICONS WITH TOOLTIP */}
+                      {/* <i class="fab fa-github-square"></i>
+                      <i class="far fa-window-maximize"></i>
+                      <div>
+                        <p>Sometimes you need to allow users to select text within a <span style={{ textDecoration: "underline", color: "blue" }} href="#" id="DisabledAutoHideExample">tooltip</span>.</p>
+                        <Tooltip placement="top" isOpen={this.state.tooltipOpen} autohide={false} target="DisabledAutoHideExample" toggle={this.toggle}>
+                          Try to select this text!
+                        </Tooltip>
+                      </div> */}
+                    </div>
+                  </a>
+                </li>
               )
             })
           }

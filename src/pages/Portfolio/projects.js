@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'Fictional University',
     github: 'https://github.com/gavinquirk/HopStop',
-    deployed: 'http://hop-stop.herokuapp.com/',
+    deployed: false,
     description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
     image: '/images/fictionaluniversity_990.png'
   },
