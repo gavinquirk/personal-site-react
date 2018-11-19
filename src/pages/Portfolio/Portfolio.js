@@ -65,8 +65,7 @@ class Portfolio extends Component {
                     <span class="rig-overlay"></span>
                     <div class="rig-text">
                       <h4>{project.title}</h4>
-                      <p>Nisi Lorem nisi et pariatur ipsum esse. Tempor nisi sit ex esse voluptate ullamco magna anim.
-                       Quis aute aliquip nulla sit quis magna fugiat laboris enim amet.</p>
+                      <p>{project.description}</p>
                       {githubChecker(project.github)}
                       {deployChecker(project.deployed)}
                        {/* NOT WORKING -- ICONS WITH TOOLTIP */}
