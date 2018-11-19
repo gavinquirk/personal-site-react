@@ -5,7 +5,7 @@ const projects = [
     github: false,
     deployed: 'http://artallus.com/',
     description: 'A place for artists, venues, and art appreciators to come together. I began interning here in Aug 2018. Technologies used include Meteor, Javascript, MongoDB, SemanticUI and Mandrill',
-    image: '/images/hopstop_990.png'
+    image: '/images/artallus_990.png'
   },
   {
     title: 'Fictional University',
@@ -33,21 +33,21 @@ const projects = [
     github: 'https://github.com/gavinquirk/Star-Wars-Trivia-Game',
     deployed: 'https://gavinquirk.github.io/Star-Wars-Trivia-Game/',
     description: 'Answer all of the Star Wars trivia questions in 45 seconds or less.',
-    image: '/images/hopstop_990.png'
+    image: '/images/starwars_trivia_game_990.png'
   },
   {
     title: 'Train Tracker',
     github: 'https://github.com/gavinquirk/Train-Tracker',
     deployed: 'https://gavinquirk.github.io/Train-Tracker/',
     description: 'Add a train, its first arrival time and frequency to calculate more arrival times.',
-    image: '/images/hopstop_990.png'
+    image: '/images/train_tracker_2_1.png'
   },
   {
     title: 'Gifmaster',
     github: 'https://github.com/gavinquirk/Gifmaster',
     deployed: 'https://gavinquirk.github.io/Gifmaster/',
     description: 'Search for gifs using key terms. Click on a gif to animate! Powered by the Giphy API.',
-    image: '/images/hopstop_990.png'
+    image: '/images/gifmaster_2_1.png'
   }
 ]
 
