@@ -40,7 +40,11 @@ class Portfolio extends Component {
   render() {
 
     const deployChecker = (deploy) => {
-      return (deploy ? <Button className="project-button" href={deploy} target="_blank">Deployed</Button> : "")
+      return (deploy ? <Button className="project-button" href={deploy} target="_blank">Deployment</Button> : "")
+    }
+
+    const githubChecker = (github) => {
+      return (github ? <Button className="project-button" href={github} target="_blank">Github</Button> : "")
     }
 
     return (
@@ -63,8 +67,7 @@ class Portfolio extends Component {
                       <h4>{project.title}</h4>
                       <p>Nisi Lorem nisi et pariatur ipsum esse. Tempor nisi sit ex esse voluptate ullamco magna anim.
                        Quis aute aliquip nulla sit quis magna fugiat laboris enim amet.</p>
-                      <Button className="project-button" href={project.github} target="_blank">Github</Button>
-                      {/* <Button className="project-button" href={project.deployed} target="_blank">Deployed</Button> */}
+                      {githubChecker(project.github)}
                       {deployChecker(project.deployed)}
                        {/* NOT WORKING -- ICONS WITH TOOLTIP */}
                       {/* <i class="fab fa-github-square"></i>

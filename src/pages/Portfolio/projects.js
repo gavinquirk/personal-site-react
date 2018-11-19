@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'Artallus',
-    github: 'https://github.com/gavinquirk/',
+    github: false,
     deployed: 'http://artallus.com/',
     description: 'Find local breweries by entering your city and state. See locations on Google Maps. Click to see websites, addresses, and descriptions',
     image: '/images/hopstop_990.png'
