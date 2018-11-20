@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Jumbotron } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './SelfTaught.css'
 
 class SelfTaught extends Component {
@@ -12,13 +12,13 @@ class SelfTaught extends Component {
           {/* TODO: List Icons of Self Taught */}
           <Row>
               <Col lg={4}>
-                <img className="st-image" src="images/wordpress_500_500.png" />
+                <img className="st-image" src="images/wordpress_500_500.png" alt="wordpress logo"/>
               </Col>
               <Col lg={4}>
-                <img className="st-image" src="images/php_512_512.png" />
+                <img className="st-image" src="images/php_512_512.png" alt="php icon"/>
               </Col>
               <Col lg={4}>
-                <img className="st-image" src="images/docker_512_512.png" />
+                <img className="st-image" src="images/docker_512_512.png" alt="docker icon"/>
               </Col>
           </Row>
 

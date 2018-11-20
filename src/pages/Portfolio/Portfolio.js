@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/Navigation'
-import Banner from '../../components/Banner'
-import PortfolioCard from '../../components/PortfolioCard'
 import Projects from './projects.js'
-import { Row, Col, Tooltip, Button } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 // import pic from './portfolioImages/fictionaluniversity_640_320.png'
 // import pic from 'public/images/fictionaluniversity_640_320.png'
 
@@ -61,7 +59,7 @@ class Portfolio extends Component {
               return (
                 <li>
                   <a class="rig-cell" href={project.deployed}>
-                    <img class="rig-img" src={project.image} />
+                    <img class="rig-img" src={project.image} alt={project.title}/>
                     <span class="rig-overlay"></span>
                     <div class="rig-text">
                       <h4>{project.title}</h4>

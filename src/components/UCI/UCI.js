@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Jumbotron } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './UCI.css'
 
 class UCI extends Component {
@@ -12,17 +12,17 @@ class UCI extends Component {
           <Row>
               <Col lg={4} sm={1}>
                 <div className="badge">
-                  <img src="images/badge_html_css.png" />
+                  <img src="images/badge_html_css.png" alt="UCI certificate html css"/>
                 </div>
               </Col>
               <Col lg={4} sm={1}>
                 <div className="badge">
-                  <img src="images/badge_javascript_jquery.png" />
+                  <img src="images/badge_javascript_jquery.png" alt="UCI certificate javascript jquery"/>
                 </div>
               </Col>
               <Col lg={4} sm={1}>
                 <div className="badge">
-                  <img src="images/badge_react.png" />
+                  <img src="images/badge_react.png" alt="UCI certificate react"/>
                 </div>
               </Col>
             </Row>
@@ -30,13 +30,13 @@ class UCI extends Component {
               <Col lg={1} sm={1}></Col>
               <Col lg={4} sm={1}>
                 <div className="badge">
-                  <img src="images/badge_node_express.png" />
+                  <img src="images/badge_node_express.png" alt="UCI certificate node express"/>
                 </div>
               </Col>
               <Col lg={2} sm={1}></Col>
               <Col lg={4} sm={1}>
                 <div className="badge">
-                  <img src="images/badge_sql_nosql.png" />
+                  <img src="images/badge_sql_nosql.png" alt="UCI certificate sql nosql"/>
                 </div>
               </Col>
               <Col lg={1} sm={1}></Col>

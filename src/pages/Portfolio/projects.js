@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'Fictional University',
     github: 'https://github.com/gavinquirk/FictionalUniversity',
-    deployed: false,
+    deployed: "http://gavinq.sgedu.site/",
     description: 'A website for a fictional university. Search through blog posts, departments, professors, and events. See what is coming up soon on the front page. Created using Wordpress, PHP and Javascript.',
     image: '/images/fictionaluniversity_990.png'
   },

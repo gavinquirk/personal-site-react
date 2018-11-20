@@ -11,7 +11,7 @@ class Banner extends Component {
       <div className="Banner">
         <Row>
           <Col lg="12" sm="6">
-            <img src={bannerUrl} className="bannerImage" />
+            <img src={bannerUrl} className="bannerImage" alt="Mushroom"/>
           </Col>
         </Row>
       </div>

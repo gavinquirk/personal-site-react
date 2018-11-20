@@ -25,8 +25,8 @@ class Contact extends Component {
             <h2 className="contact-section-title">Social Media</h2>
             <h4>You can also find me online</h4>
             <div className="icons">
-              <a href="https://github.com/gavinquirk" target="_blank"><i class="fab fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/gavin-quirk/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/gavinquirk" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/gavin-quirk/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
             </div>
           </Col>
         </Row>

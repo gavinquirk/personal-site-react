@@ -28,19 +28,19 @@ class Skills extends Component {
               <Col lg={4} sm={12} className="nomargin">
                 <div className="skills-section nomargin">
                   <h4 className="skills-section-title">MERN Stack</h4>
-                  <img src="/images/slackoverflow_640_320.png" />
+                  <img src="/images/slackoverflow_640_320.png" alt="slack overflow"/>
                 </div>
               </Col>
               <Col lg={4} sm={12} className="nomargin">
                 <div className="skills-section nomargin">
                   <h4 className="skills-section-title">Wordpress</h4>
-                  <img src="/images/fictionaluniversity_640_320.png" />
+                  <img src="/images/fictionaluniversity_640_320.png" alt="fictional university"/>
                 </div>
               </Col>
               <Col lg={4} sm={12} className="nomargin">
                 <div className="skills-section nomargin">
                   <h4 className="skills-section-title">Meteor</h4>
-                  <img src="/images/fictionaluniversity_640_320.png" />
+                  <img src="/images/fictionaluniversity_640_320.png" alt="artallus"/>
                 </div>
               </Col>
             </Row>
