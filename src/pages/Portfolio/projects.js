@@ -1,6 +1,13 @@
 // List of Projects
 const projects = [
   {
+    title: 'Natours',
+    github: 'https://github.com/gavinquirk/natours',
+    deployed: 'https://gavinquirk.github.io/natours/',
+    description: 'A landing page for a fictional nature tour company. Created using HTML and SASS. Currently in the works!',
+    image: '/images/natours_990.png'
+  },
+  {
     title: 'Artallus',
     github: false,
     deployed: 'http://artallus.com/',
